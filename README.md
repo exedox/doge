@@ -1,9 +1,11 @@
 
-![french doge](https://i.imgur.com/v2JIP3D.jpg)
+![french doge](https://i.imgur.com/iqNwcCJ.png)
+!(https://i.imgur.com/sXbNOKX.png)
+***Waahhhhhh!!!!***
 
-***~~WOW SUCH DOGE~~***
+> Doge NSP Updater alongside nut server brought to you by krptg and doge
 
-> Doge NSP Updater alongside nut server brought to you by krptg
+> This is a test fork, run at own risk of bork!
 
 > Everything runs in Docker, no dependency needed (except Docker)
 
@@ -32,6 +34,7 @@ docker run --name doge \
            -v $(pwd):/keys
            -v /path/to/nsp:/nsp \ 
            -p 6093:6093 \
+           -p 9000:9000
            krptg/doge
 ```
 #### Server in detached mode with custom logins and passwords
@@ -72,6 +75,14 @@ Access the webui at ```http://<your IP>:6093``` and login as (defaults) :
 + `DOGE_PASSWD=<password>` *(Optional) - Set Doge Password : default to* `DOGE`
 + `NUT_USER=<user>` *(Optional) - Set Nut User : default to* `AdMiN`
 + `NUT_PASSWD=<password>` *(Optional) - Set Nut Password : default to* `nYsTIaNICHIm`
+---
+
+#### Screenshots
+
+If you use synology docker here's some screens to help ya'll
+Search exedox in registry and pick repository
+Once installed launch the image and follow the screens:
+
 
 ---
 #### Credits
