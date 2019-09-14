@@ -9,7 +9,7 @@
 
 > Everything runs in Docker, no dependency needed (except Docker)
 
-> Code will be always up to date with latest commits from doge and nut
+> ~~Code will be always up to date with latest commits from doge and nut
 
 ### **PSA : make sure to have a keys.txt ready and placed where you will run the `docker run` command**
 
