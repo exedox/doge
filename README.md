@@ -84,7 +84,7 @@ Search exedox in registry and pick repository
 Once installed launch the image and follow the screens:
 ![1](https://i.imgur.com/sXbNOKX.png)
 ![2](https://i.imgur.com/hdRfvcS.png)
-```First box is the path to the nsp folders and the one to the right it stays /nsp```
+``First box is the path to the nsp folders and the one to the right it stays /nsp``
 ![3](https://i.imgur.com/QL1738A.png)
 
 ---
