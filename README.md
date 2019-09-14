@@ -1,11 +1,11 @@
 
-![french doge](https://i.imgur.com/iqNwcCJ.png)
-!(https://i.imgur.com/sXbNOKX.png)
+![wah](https://i.imgur.com/iqNwcCJ.png)
+
 ***Waahhhhhh!!!!***
 
 > Doge NSP Updater alongside nut server brought to you by krptg and doge
 
-> This is a test fork, run at own risk of bork!
+> This is a test fork, run at own risk of bork! Edited for the synology nas
 
 > Everything runs in Docker, no dependency needed (except Docker)
 
@@ -77,14 +77,18 @@ Access the webui at ```http://<your IP>:6093``` and login as (defaults) :
 + `NUT_PASSWD=<password>` *(Optional) - Set Nut Password : default to* `nYsTIaNICHIm`
 ---
 
-#### Screenshots
+#### Screenshots for Synology
 
 If you use synology docker here's some screens to help ya'll
 Search exedox in registry and pick repository
 Once installed launch the image and follow the screens:
-
+![1](https://i.imgur.com/sXbNOKX.png)
+![2](https://i.imgur.com/hdRfvcS.png)
+```First box is the path to the nsp folders and the one to the right it stays /nsp```
+![3](https://i.imgur.com/QL1738A.png)
 
 ---
 #### Credits
 + wowsuchdoge : [doge](https://github.com/wowsuchdoge/doge)
 + blawar : [nut](https://github.com/blawar/nut)
++ krptg0 : [docker](https://github.com/krptg0/doge)
