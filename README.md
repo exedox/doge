@@ -9,7 +9,11 @@
 
 > Everything runs in Docker, no dependency needed (except Docker)
 
-> ~~Code will be always up to date with latest commits from doge and nut~~ This is a test docker, so none of this is going to be maintained since this is based off an old commmit of nut.
+> ~~Code will be always up to date with latest commits from doge and nut~~ 
+
+> This is a test docker, so none of this is going to be maintained since this is based off an old commmit of nut.
+
+> Be sure to restart your docker when you add stuff, else doge/nut won't see the new files in your folders.
 
 ### **PSA : make sure to have a keys.txt ready and placed where you will run the `docker run` command**
 
@@ -44,6 +48,7 @@ docker run --name doge \
            -v $(pwd):/keys
            -v /path/to/nsp:/nsp \ 
            -p 6093:6093 \ 
+           -p 9000:9000
            -e DOGE_USER=admin \ 
            -e DOGE_PASSWD=admin \ 
            -e NUT_USER=admin \ 
@@ -52,8 +57,11 @@ docker run --name doge \
 ```
 #### Check logs with (if in detached mode)
 ```docker logs doge```
-#### Scrape CDN with a running container
-```docker exec -it doge python3 /doge/nut/nut.py -s --scrape```
+#### ~~Scrape CDN with a running container~~
+~~```docker exec -it doge python3 /doge/nut/nut.py -s --scrape```~~
+
+This scrape is outdated, don't do it.
+
 #### Using the application
 Access the webui at ```http://<your IP>:6093``` and login as (defaults) :
 * login: `doge`
