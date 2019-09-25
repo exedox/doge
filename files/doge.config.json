@@ -10,7 +10,7 @@
 "BOB_VERSION_DB_URL": "https://raw.githubusercontent.com/Bob123a1/CDNSP-GUI-Files/master/Config/Version_info.json",
 "NUT_TITLEDB_URL": "https://raw.githubusercontent.com/blawar/titledb/master/",
 "NUT_TITLEDB_LANG_FILTER": "",
-"NUT_GITHUB": "blawar/nut",
+"NUT_GITHUB": "blawar/titledb",
 "API_KEY": null,
 "SWITCH_ALIASES": {},
 "USERS": {
