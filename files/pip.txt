@@ -1,9 +1,10 @@
-colorama
+colorama 
 pyopenssl
 requests
 tqdm
 unidecode
-image
-bs4
+Pillow
+BeautifulSoup4
 urllib3
-flask
+Flask
+pyusb
