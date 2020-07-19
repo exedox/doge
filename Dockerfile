@@ -4,7 +4,7 @@ COPY files/pip.txt pip.txt
 RUN  pip3.7 install -r /pip.txt 
 RUN git clone --depth=1 https://github.com/blawar/nut /nut && apk del zlib-dev git alpine-sdk libffi-dev musl-dev openssl-dev
 COPY files/nut.conf /nut/conf/nut.conf
-COPY files/start_doge.sh /start_nut.sh
-COPY files/users.conf /doge/nut/conf/users.conf
+COPY files/start_nut.sh /start_nut.sh
+COPY files/users.conf /nut/conf/users.conf
 
 ENTRYPOINT ["/bin/sh","start_nut.sh"]
